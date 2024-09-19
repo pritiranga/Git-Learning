@@ -1,5 +1,11 @@
 git init
+git status
 git add <file-name>
 git rm <file-name>
 git commit -m "<message>"
 git restore <file-name>
+git remote add origin <GitHub Repositry URL>
+git push origin <branch-name>
+git remote -v
+git remote set-url origin <https://<PAT-token>@github.com/<github repo link without https://www.github.com/>>
+
