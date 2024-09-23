@@ -1,0 +1,12 @@
+GIT SQUASH ->  Combines multiple commits into a single commit. This is useful for cleaning up your commit history by merging several small changes into one meaningful change.  
+
+Example: Let’s say you have these three commits on your feature branch:
+Commit 1: Added a button.
+Commit 2: Fixed the button color.
+Commit 3: Adjusted the button size.
+
+Before squash:-
+feature: F1---F2---F3
+
+Run "git rebase -i HEAD~3" and change the second and third commits to squash, you’ll combine them into one. Then after squash:
+feature:  F1'

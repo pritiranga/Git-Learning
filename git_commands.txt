@@ -40,7 +40,3 @@ git checkout <branch-name>
 For checking logs
 git log
 git log --oneline
-
-
-
-

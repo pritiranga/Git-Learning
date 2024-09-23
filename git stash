@@ -1,0 +1,16 @@
+GIT STASH is like a temporary storage space in Git. Imagine you're working on some changes in your code, but suddenly you need to switch to another task without losing what you've done so far. Instead of committing your changes (which might not be ready yet), you "stash" them away.
+
+# Start working on the code
+git add .
+
+# Stash the changes
+git stash
+
+# Now your working directory is clean and can switch to another branch
+git checkout other-branch
+
+# After finishing the work on the other branch, come back
+git checkout first-branch
+
+# Apply the stashed changes
+git stash pop

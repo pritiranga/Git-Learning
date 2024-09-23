@@ -1,0 +1,10 @@
+GIT REBASE -> Integrating commits from one branch into another, maintaining a linear history.
+
+Imagine we do have two branches main and feature with commits like below:
+main:    A---B---C
+feature:       D---E
+
+Run command "git rebase main" while on feature branch that means feature commits will on top of main branch like below:
+main:    A---B---C---D'---E'
+
+
