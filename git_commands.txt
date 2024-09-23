@@ -1,11 +1,46 @@
+Initialize empty git Repositry
 git init
+
+To know current git status
 git status
+
+Adding changes to staging
 git add <file-name>
+
+Removing changes from staging to local
 git rm <file-name>
+
+Commiting changes 
 git commit -m "<message>"
+
+Can restore changes from commit to  local
 git restore <file-name>
+
+Adding remote origin where changes need to push
 git remote add origin <GitHub Repositry URL>
+
+Pushing changes to any specific branch
 git push origin <branch-name>
+
+Checking remote origin
 git remote -v
+
+Can set url based on Github PAT 
 git remote set-url origin <https://<PAT-token>@github.com/<github repo link without https://www.github.com/>>
+
+Checking current branch
+git branch  
+ 
+Create new branch and switch to this new branch
+git checkout -B <new-branch> 
+
+Swtich to another branch
+git checkout <branch-name>
+
+For checking logs
+git log
+git log --oneline
+
+
+
 
